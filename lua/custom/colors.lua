@@ -1,2 +1,2 @@
-vim.g.everforest_transparent_background = 2
+require("base46").toggle_transparency()
 

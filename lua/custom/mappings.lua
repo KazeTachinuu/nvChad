@@ -10,6 +10,8 @@ M.general = {
 M.custom = {
   n = {
     ["<c-a>"] = { "gg<S-v>G", "Select All" },
+    --transparency
+    ["<leader>to"] = { ":lua require('base46').toggle_transparency()<CR>", "Toggle Transparency" },
   },
 }
 
